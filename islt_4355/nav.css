@@ -13,7 +13,7 @@ display: flex;
 }
 
 nav li {
-padding: 20px 0 20px 0;
+padding: 10px 0 10px 0;
 }
 
 li a {
@@ -23,6 +23,28 @@ padding: 20px 20px;
 text-decoration: none;
 }
 
+nav ul li a
+{
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
 li a:hover {
 background-color: hotpink;
 }
+
+nav ul li ul
+{
+    position: absolute;
+    display: none;
+}
+
+nav ul li:hover ul
+{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+
+}
+
