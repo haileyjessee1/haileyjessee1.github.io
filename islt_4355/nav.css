@@ -6,6 +6,7 @@ body{
 nav ul{
 margin: 0;
 padding: 0;
+border: none;
 list-style-type: none;
 overflow: hidden;
 background-color: lightpink;
