@@ -73,7 +73,6 @@ header {
     }
           }
       
-      }
       /* Grid layout in desktop view*/
       @media screen and (max-width: 759px) {
           .grid {
@@ -110,6 +109,5 @@ header {
           justify-self: right;
           padding: 80px;
           }
-          }
+        }
                 
-        }   
