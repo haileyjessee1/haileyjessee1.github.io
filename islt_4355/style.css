@@ -87,7 +87,7 @@ header {
       
           .item1 {
               grid-area: item1;
-              justify-self: left;
+              justify-self: center;
               padding-left: 10px;
               margin: 10px;
             }
@@ -98,18 +98,18 @@ header {
           }
           .item2 {
             grid-area: item2;
-            justify-self: right;
+            justify-self: center;
             padding: 60px;       
             
           }
           .item3 {
               grid-area: item3;
-              justify-self: left;
+              justify-self: center;
               padding: 40px;
                  }
           .item4 {
             grid-area: item4;
-            justify-self: right;
+            justify-self: center;
             padding: 80px;
           }
                 
