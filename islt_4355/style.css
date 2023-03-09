@@ -87,27 +87,25 @@ header {
       
           .item1 {
         grid-area: item1;
-        justify-self: center;
-        padding-left: 10px;
+        padding-left: 20px;
       }
        
     img {
         max-width: 100%;
-        padding-left: 10px;
+        padding-left: 20px;
      }
     .item2{
         grid-area: item2;
-        padding-left: 10px;
+        padding-left: 20px;
        
         }
     .item3 {
         grid-area: item3;
-        padding-left: 10px;
+        padding-left: 20px;
            }
     .item4 {
       grid-area: item4;
-      justify-self: center;
-      padding-left: 10px;
+      padding-left: 20px;
     }
           }
                 
