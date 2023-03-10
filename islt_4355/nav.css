@@ -48,5 +48,33 @@ nav ul li:hover ul
 
 }
 
+#toggle {
+    display: none;
+}
+#hamburger {
+    display: none;
+    width: 26px;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 800px) {
+    #hamburger {
+		display: block;
+        background-color: lightpink;
+        width: auto;
+        padding: 20px;
+        font-size: 2em;
+        color: hotpink;
+	}
+    .navBar {
+        display: none;
+    }
+    #toggle:checked ~ .navBar { 
+        display: block;
+	}
+    nav:hover #mobileHide {
+		display: none;
+	}
+}
 
 
