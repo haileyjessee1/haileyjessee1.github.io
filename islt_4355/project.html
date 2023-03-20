@@ -14,7 +14,8 @@ School/Term: University of Missouri - Columbia / Spring 2023
 
 Developed: January 31st, 2023
 
-Tested: February 24th, 2023 
+Tested: March 19th, 2023 Passed on Chrome and Firefox browsers.
+
 
 -->
                <meta charset="utf-8">
@@ -23,27 +24,64 @@ Tested: February 24th, 2023
                <link rel="stylesheet" href="style.css">
                <link rel= "stylesheet" href="nav.css">
 
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 
-    <nav>
-        <ul>
-          <li><a href="https://haileyjessee1.github.io/islt_4355/index.html">Home</a></li>
-          <li><a href="https://haileyjessee1.github.io/islt_4355/about.html">About</a></li>
-          <li><a href="#project.html">Projects</a>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-          </li>    
+  <nav>
+    <label id="hamburger" for="toggle">☰</label>
+    <input type="checkbox" id="toggle">
+    <ul class="navBar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Projects</a>
+        <ul id="mobileHide">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
         </ul>
-    </nav>
+      </li>   
+      <li><a href="reflection.html">Reflection</a></li>
+      <li><a href="#contact.html">Contact</a></li>
+
+    </ul>
+</nav>
+
+<main>
+
+<div id="container">
+
+<header>
+  <h1>Projects</h1>
+</header>
+
+<div class = "grid">
+
+  <div class = "item1">
+    <p>currently a placeholder at the moment</p>
+  </div>
+
+  <div class = "item2">
+    <p>currently a placeholder at the moment</p>
+  </div>
+
+  <div class = "item3">
+    <p>currently a placeholder at the moment</p>
+  </div>
+
+  <div class = "item4">
+    <p>currently a placeholder at the moment</p>
+  </div>
+
+</div>
+</div>
+</main>
 
 
 <footer>
-  <p>Hailey Jessee<br>
-  <a href="mailto:hdjkf8@umsystem.edu">hdjkf8@umsystem.edu</a><br>Copyright: Hailey Jessee (2023) All Right Reserved.</p>
+  <h5>Hailey Jessee<br>
+  <a href="mailto:hdjkf8@umsystem.edu">hdjkf8@umsystem.edu</a><br>Copyright: Hailey Jessee (2023) All Right Reserved.</h5>
 </footer>
 
 </body>
