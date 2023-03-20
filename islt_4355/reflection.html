@@ -14,7 +14,7 @@ School/Term: University of Missouri - Columbia / Spring 2023
 
 Developed: March 2nd, 2023
 
-Tested: March 4th, 2023 Passed on Chrome and Firefox browsers.
+Tested: March 19th, 2023 Passed on Chrome and Firefox browsers.
 
 
 -->
@@ -24,29 +24,37 @@ Tested: March 4th, 2023 Passed on Chrome and Firefox browsers.
                <link rel="stylesheet" href="style.css">
                <link rel= "stylesheet" href="nav.css">
 
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#project.html">Projects</a>
-        
-          <ul>
-              <li><a href="#">Link 1</a></li>
-              <li><a href="#">Link 2</a></li>
-              <li><a href="#">Link 3</a></li>
-          </ul>
-        </li>   
-        <li><a href="reflection.html">Reflection</a></li>
-        <li><a href="#contact.html">Contact</a></li>
-  
-      </ul>
-    </nav>
+  <nav>
+    <label id="hamburger" for="toggle">☰</label>
+    <input type="checkbox" id="toggle">
+    <ul class="navBar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Projects</a>
+        <ul id="mobileHide">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+      </li>   
+      <li><a href="reflection.html">Reflection</a></li>
+      <li><a href="#contact.html">Contact</a></li>
 
-<div>
-<h1 class = "mainheader">Reflection</h1>
+    </ul>
+</nav>
+
+<div id="container">
+
+<header>
+<h1>Reflection</h1>
+</header>
+
+<div class="item1">
 
 <h3>Freshman Year</h3>
 
@@ -89,6 +97,7 @@ pursue my master’s in engineering management to become an Engineering Manager 
 day. Looking back on my college career, If I had the opportunity to change any part of it, 
 I wouldn’t. I believe all these events and lessons happened for a reason at the time they 
 did and the growth I experienced from it, is incredible.</p> 
+</div>
 </div>
 
 <footer>
