@@ -2,16 +2,14 @@ p::first-letter {
     font-size: x-large;
   }
 
+#container{
+  width:960px;
+  margin:0px auto;
+}
+
 p{
      text-indent: 40px;
   }
-
-/*div {
-    border: none;
-    padding: 10px;
-    margin: 20px;
-    width: 1300px;
-  }*/
 
 footer {
   text-align: center;
@@ -39,6 +37,8 @@ header {
               width: 300px;
               height: 460px;
           }
+
+          
           .grid {
           display: grid;
           grid-gap: 1em;
@@ -48,11 +48,13 @@ header {
               "item1 item2"
               "item3 item4";
           }
+
       .item1 {
           grid-area: item1;
           justify-self: left;
           padding: 20px; 
-          margin: 10px;   
+          margin: 10px; 
+            
           }
       .item2 {
         grid-area: item2;
@@ -62,7 +64,7 @@ header {
       }
       .item3 {
          grid-area: item3;
-         justify-self: left;
+         
          padding: 40px;
           }
       .item4 {
@@ -71,8 +73,17 @@ header {
           padding: 80px;
           }
       }
-      /* Grid layout in desktop view*/
-      @media screen and (max-width: 759px) {
+      /* Grid layout in mobile view*/
+      @media screen and (max-width: 1200px) {
+
+        #container{
+          width: 100%;
+        }
+
+        p{
+          font-size:2vw;
+
+        }
           .grid {
               display: grid;
               grid-gap: 1em;
@@ -93,7 +104,7 @@ header {
             }
              
             img {
-              width: 300px;
+              width: 250px;
               height: 400px;
           }
           .item2 {
@@ -107,10 +118,11 @@ header {
               justify-self: center;
               padding: 40px;
                  }
+
           .item4 {
             grid-area: item4;
             justify-self: center;
             padding: 80px;
           }
                 
-        }      
+        } 
