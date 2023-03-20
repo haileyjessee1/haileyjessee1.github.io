@@ -16,7 +16,7 @@ School/Term: University of Missouri - Columbia / Spring 2023
 
 Developed: January 31st, 2023
 
-Tested:  March 9th, 2023; Passed on Chrome and Firefox browsers.
+Tested:  March 19th, 2023; Passed on Chrome and Firefox browsers.
 
 ******************************************************************************
 
@@ -26,17 +26,19 @@ Tested:  March 9th, 2023; Passed on Chrome and Firefox browsers.
 
       <link rel="stylesheet" href="style.css">
       <link rel= "stylesheet" href="nav.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <body>
-<nav>
-    <ul>
+  <nav>
+    <label id="hamburger" for="toggle">☰</label>
+    <input type="checkbox" id="toggle">
+    <ul class="navBar">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="#project.html">Projects</a>
-      
-        <ul>
+      <li><a href="project.html">Projects</a>
+        <ul id="mobileHide">
             <li><a href="#">Link 1</a></li>
             <li><a href="#">Link 2</a></li>
             <li><a href="#">Link 3</a></li>
@@ -46,12 +48,11 @@ Tested:  March 9th, 2023; Passed on Chrome and Firefox browsers.
       <li><a href="#contact.html">Contact</a></li>
 
     </ul>
-
 </nav>
 
 <header>
 
-  <h1> Hailey Jessee </h1>
+  <h1> About </h1>
 
 </header>
 
