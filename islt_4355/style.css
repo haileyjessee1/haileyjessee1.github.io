@@ -5,7 +5,8 @@
 }
 
 body {
-font-family: lato;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 p::first-letter {
@@ -13,7 +14,7 @@ p::first-letter {
   }
 
 blockquote 
-{font-family: lato, Lato-Black; }
+{font-family: 'Merriweather', serif;}
 
 #container{
   width:960px;
@@ -175,7 +176,3 @@ header {
               margin: 1in;
           }
           }
-
-
-      
-      
