@@ -154,7 +154,6 @@ header {
               color: #000 !important;
               box-shadow: none !important;
               text-shadow: none !important;
-              font-family: lato, Lato-Black;
  
           }
           nav{
@@ -163,6 +162,10 @@ header {
 
           img{
             display: none;
+          }
+        
+           blockquote{
+            font-family: lato, Lato-Black;
           }
 
           header{
