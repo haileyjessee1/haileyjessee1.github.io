@@ -1,7 +1,7 @@
 @font-face
 {
- font-family: lato;
- src: url("Lato-Black.ttf");
+ font-family: 'lato' 'merriweather';
+ src: url("https://fonts.googleapis.com");
 }
 
 body {
@@ -59,7 +59,6 @@ header {
               height: 460px;
           }
 
-          
           .grid {
           display: grid;
           grid-gap: 1em;
@@ -146,15 +145,14 @@ header {
             padding: 80px;
           }
                 
-        }   
-
-       @media print{
+        }  
+      
+        @media print{
           *{
               background: transparent !important;
               color: #000 !important;
               box-shadow: none !important;
               text-shadow: none !important;
-              font-family: 'Times New Roman', Times, serif;
  
           }
           nav{
@@ -164,9 +162,9 @@ header {
           img{
             display: none;
           }
-        
-           blockquote{
-            font-family: lato, Lato-Black;
+
+          blockquote{
+            font-family: merriweather, Merriweather;
           }
 
           header{
@@ -178,4 +176,6 @@ header {
           }
           }
 
+
+      
       
