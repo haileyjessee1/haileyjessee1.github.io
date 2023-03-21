@@ -148,7 +148,7 @@ header {
                 
         }   
 
-  @media print{
+       @media print{
           *{
               background: transparent !important;
               color: #000 !important;
@@ -164,16 +164,14 @@ header {
           img{
             display: none;
           }
+
           header{
-              margin-bottom: 0px;
               text-align: center;
-              border: none;
           }
 
           @page{ 
               margin: 1in;
           }
           }
-
 
       
