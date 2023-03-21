@@ -75,12 +75,14 @@ header {
           justify-self: left;
           padding: 20px; 
           margin: 10px; 
+          font-family: 'Lato', sans-serif;
             
           }
       .item2 {
         grid-area: item2;
         justify-self: right;
         padding: 80px;
+        font-family: 'Lato', sans-serif;
         
       }
       .item3 {
@@ -92,6 +94,7 @@ header {
           grid-area: item4;
           justify-self: right;
           padding: 80px;
+          font-family: 'Lato', sans-serif;
           }
       }
       /* Grid layout in mobile view*/
@@ -122,6 +125,7 @@ header {
               justify-self: center;
               padding-left: 10px;
               margin: 10px;
+              font-family: 'Lato', sans-serif;
             }
              
             img {
@@ -131,7 +135,8 @@ header {
           .item2 {
             grid-area: item2;
             justify-self: center;
-            padding: 60px;       
+            padding: 60px; 
+            font-family: 'Lato', sans-serif;      
             
           }
           .item3 {
@@ -144,6 +149,7 @@ header {
             grid-area: item4;
             justify-self: center;
             padding: 80px;
+            font-family: 'Lato', sans-serif;
           }
                 
         }  
@@ -164,6 +170,10 @@ header {
             display: none;
           }
 
+          body{
+            font-family: 'Lato', sans-serif;
+          }
+
           blockquote{
             font-family: merriweather, Merriweather;
           }
@@ -176,3 +186,6 @@ header {
               margin: 1in;
           }
           }
+
+
+      
