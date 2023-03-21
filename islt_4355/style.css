@@ -147,3 +147,33 @@ header {
           }
                 
         }   
+
+  @media print{
+          *{
+              background: transparent !important;
+              color: #000 !important;
+              box-shadow: none !important;
+              text-shadow: none !important;
+              font-family: lato, Lato-Black;
+ 
+          }
+          nav{
+              display: none;
+          }
+
+          img{
+            display: none;
+          }
+          header{
+              margin-bottom: 0px;
+              text-align: center;
+              border: none;
+          }
+
+          @page{ 
+              margin: 1in;
+          }
+          }
+
+
+      
