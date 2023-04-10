@@ -1,12 +1,6 @@
-@font-face
-{
- font-family: 'Lato' 'Merriweather';
- src: url("https://fonts.googleapis.com");
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  font-family: 'Merriweather', serif;
+body{
+  font-family: Georgia, serif;
+  font-family: 'Courier New', monospace;
 }
 
 p::first-letter {
@@ -14,7 +8,7 @@ p::first-letter {
   }
 
 blockquote 
-{font-family: 'Merriweather', serif;}
+{font-family: 'Courier New', monospace;}
 
 #container{
   width:960px;
@@ -55,12 +49,13 @@ footer {
 .icon {
   width: 18px;
   height: 18px;
+
 }
 
 .zoom {
         transition: transform .3s; 
-        width: 18px;
-        height: 18px;
+        width: 60px;
+        height: 60px;
         margin: 0 auto;
       }
       
@@ -108,14 +103,14 @@ header {
           padding: 20px; 
           margin: 10px; 
           margin-bottom: 80PX;
-          font-family: 'Lato', sans-serif;
+          font-family: Georgia, serif;
             
           }
       .item2 {
         grid-area: item2;
         justify-self: right;
         padding: 80px;
-        font-family: 'Lato', sans-serif;
+        font-family: Georgia, serif;
         
       }
       .item3 {
@@ -128,7 +123,7 @@ header {
           justify-self: right;
           padding: 80px;
           margin-bottom: 80px;
-          font-family: 'Lato', sans-serif;
+          font-family: Georgia, serif;
           }
       }
       /* Grid layout in mobile view*/
@@ -159,7 +154,7 @@ header {
               justify-self: center;
               padding-left: 10px;
               margin: 10px;
-              font-family: 'Lato', sans-serif;
+              font-family: Georgia, serif;
             }
              
             img {
@@ -170,7 +165,7 @@ header {
             grid-area: item2;
             justify-self: center;
             padding: 60px; 
-            font-family: 'Lato', sans-serif;      
+            font-family: Georgia, serif;     
             
           }
           .item3 {
@@ -183,7 +178,7 @@ header {
             grid-area: item4;
             justify-self: center;
             padding: 80px;
-            font-family: 'Lato', sans-serif;
+            font-family: Georgia, serif;
           }
                 
         }  
@@ -220,4 +215,5 @@ header {
               margin: 1in;
           }
           }
-      
+
+
