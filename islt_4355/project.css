@@ -1,0 +1,247 @@
+
+body{
+  font-family: Georgia, serif;
+  font-family: 'Courier New', monospace;
+}
+
+p::first-letter {
+    font-size: x-large;
+  }
+
+blockquote 
+{font-family: 'Courier New', monospace;}
+
+#container{
+  width:960px;
+  margin:0px auto;
+}
+
+p{
+     text-indent: 40px;
+  }
+
+#ADheader
+{
+  color:#DB4391;
+  display: inline;
+  text-align: center;
+
+}
+
+#PLAheader{
+  color:#DB4391;
+  display: inline;
+  text-align: center;
+
+}
+
+#HDheader{
+  
+    color:#DB4391;
+    display: inline;
+    text-align: center;
+  
+}
+
+#Irelandheader{
+  
+    color:#DB4391;
+    display: inline;
+    text-align: center;
+  
+  
+}
+
+
+
+
+/*div {
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    width: 1300px;
+  }*/
+
+
+footer {
+
+  text-align: center;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background-image: url(../islt_4355/footer.png);
+  color: white;
+  list-style-type: none;
+  bottom:0;
+
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+
+}
+
+.zoom {
+        transition: transform .3s; 
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+      }
+      
+.zoom:hover {
+        transform: scale(1.5); 
+      }
+
+
+.resume{
+    width: 320px;
+    padding: 10px;
+    border: 4px solid cyan;
+    background-color: lightcyan;
+    margin: 0;
+        }
+
+header {
+    display: inline;
+    text-align: center;
+    color: #DB4391;
+      }
+
+      h3 {color: #DB4391}
+
+/* Grid layout in desktop view*/
+    @media screen and (min-width: 760px) {
+       
+        .grid {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 25% 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "item3 item4"
+            "item5 item6"
+            "item7 item8"
+            "item9 item10";
+        }
+
+    .item3 {
+        grid-area: item3;
+        width: 400px;
+        padding: 5px;   
+        font-family: Georgia, serif;
+          
+        }
+    .item4 {
+      grid-area: item4;
+      padding: 10px;
+      width: 100px;
+      
+    }
+
+    .item5 {
+        grid-area: item5;
+        padding: 10px;  
+        width: 500px; 
+
+        }
+
+    .item6 {
+      grid-area: item6;
+      margin:10px;
+      width: 850px;
+      font-family: Georgia, serif;
+      
+    }
+    .item7 {
+      grid-area: item7;
+      padding: 5px;
+      font-family: Georgia, serif;
+        
+      }
+
+    .item8 {
+      grid-area: item8;
+      padding: 5px;
+      justify-content: right;
+      width: 100%;
+      height: 100%;
+    
+  
+    }
+
+    .item9 {
+      grid-area: item9;
+      margin:5px;
+      width: 850px;
+      margin-bottom:100px;
+      font-family: Georgia, serif;
+    }
+    .item10 {
+      grid-area: item10;
+      margin:10px;
+      width: 900px;
+      font-family: Georgia, serif;
+      margin-bottom: 100px;
+    }
+
+    /* Grid layout in mobile view*/
+    @media screen and (max-width: 1400px) {
+
+      #container{
+        width: 100%;
+      }
+
+      p{
+        font-size:2vw;
+
+      }
+        .grid {
+            display: grid;
+            grid-gap: 1em;
+            grid-template-columns: 2fr;
+            grid-template-rows: auto;
+            grid-template-areas: 
+                "item3"
+                "item4"
+                "item5"
+                "item6"
+                "item7"
+                "item8"
+                "item9"
+                "item10";
+               }
+    
+        .item3 {
+            grid-area: item3;
+           
+            padding-left: 100px;
+            margin-left: 100px;
+          
+            font-family: Georgia, serif;
+          }
+           
+          
+        }
+        .item4 {
+          grid-area: item4;
+          justify-self: center;
+          padding: 60px; 
+          font-family: Georgia, serif;     
+          
+        }
+        .item5 {
+            grid-area: item5;
+            justify-self: center;
+            padding: 40px;
+               }
+
+        .item6 {
+          grid-area: item6;
+          justify-self: center;
+          padding: 80px;
+          font-family: Georgia, serif;
+        }
+
+              
+              }
