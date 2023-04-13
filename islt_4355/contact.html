@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<!--
+
+Title: Contact
+
+Use: To contact mysellf with any messages
+
+Author: Hailey Jessee
+
+School/Term: University of Missouri - Columbia / Spring 2023 
+
+Developed: April 12th, 2023
+
+Tested: April 13th, 2023 Passed on Chrome and Firefox browsers.
+
+
+-->
+               <meta charset="utf-8">
+               <title>Contact</title>
+
+               <link rel= "stylesheet" href="style.css">
+                <link rel= "stylesheet" href="nav.css">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+</head>
+<body>
+
+  <nav>
+    <label id="hamburger" for="toggle">☰</label>
+    <input type="checkbox" id="toggle">
+    <ul class="navBar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Projects</a>
+        <ul id="mobileHide">
+            <li><a href="#ADheader">College of Engineering Ambassador/Director</a></li>
+            <li><a href="#PLAheader">Peer Learning Assistant</a></li>
+            <li><a href="#HDheader">Division of Information Technology</a></li>
+            <li><a href="#Irelandheader">Ireland Study Abroad</a></li>
+        </ul>
+      </li>   
+      <li><a href="reflection.html">Reflection</a></li>
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+</nav>
+
+
+<div id="container">
+
+<header>
+<h1>Contact</h1>
+</header>
+
+<body>
+
+    <div class="form">
+
+    <form action ="mailto:hdjkf8@umsystem.edu?Subject=Website%20Contact%20Form%20" method="post">
+        <label for="first">First name:</label><br>
+        <input type="text" id="first" name="first" value="" required><br><br>
+        <label for="last">Last name:</label><br>
+        <input type="text" id="last" name="last" value="" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="" required><br><br>
+        <label for="message">Message:</label><br>
+        <input type="text" id="message" name="message" value="" required><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+
+    </div>
+
+
+
+</div>
+
+</body>
+</html>
