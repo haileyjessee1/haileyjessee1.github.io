@@ -46,6 +46,7 @@ footer {
 
 }
 
+
 form{
   border: solid #DB4391 10px;
   text-align: center;
@@ -53,6 +54,41 @@ form{
   
   margin: 10px;
   padding: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid pink;
+  margin-bottom: 120px;
+  margin-top: 50px;
+}
+
+.tablecolorfirst { 
+  background-color:lightpink;
+}
+
+.tablecolorlast { 
+  background-color:lightpink;
+}
+
+.tzoom{
+  transition: transform .3s;
+}
+
+.tzoom:hover{
+  transform: scale(1.5); 
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 .icon {
@@ -67,6 +103,7 @@ form{
         height: 60px;
         margin: 0 auto;
       }
+
       
 .zoom:hover {
         transform: scale(1.5); 
@@ -87,7 +124,11 @@ header {
     color: #DB4391;
       }
 
-      h3 {color: #DB4391}
+      h3 {
+        color: #DB4391;
+        text-align: center;
+      
+      }
       
       /* Grid layout in desktop view*/
         @media screen and (min-width: 760px) {
@@ -131,7 +172,7 @@ header {
           grid-area: item4;
           justify-self: right;
           padding: 80px;
-          margin-bottom: 100px;
+          margin-bottom: 80px;
           font-family: Georgia, serif;
           }
       }
@@ -188,7 +229,6 @@ header {
             justify-self: center;
             padding: 80px;
             font-family: Georgia, serif;
-            margin-bottom: 100px;
           }
                 
         }  
