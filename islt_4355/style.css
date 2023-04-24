@@ -116,6 +116,7 @@ tr:nth-child(even) {
     border: 4px solid cyan;
     background-color: lightcyan;
     margin: 0;
+    margin-bottom: 80px;
         }
 
 header {
@@ -135,7 +136,14 @@ header {
           img {
               width: 300px;
               height: 460px;
-              display: block;
+          }
+
+          .headshot{
+            margin-left: 100px;
+          }
+
+          .center{
+            display: block;
               margin-left: auto;
               margin-right: auto;
               width: 50%;
@@ -156,6 +164,7 @@ header {
           justify-self: center;
           padding: 20px; 
           margin: 10px; 
+          
           margin-bottom: 80PX;
           font-family: Georgia, serif;
             
@@ -206,7 +215,7 @@ header {
           .item1 {
               grid-area: item1;
               justify-self: center;
-              padding-left: 10px;
+              padding: 10px;
               margin: 10px;
               font-family: Georgia, serif;
             }
@@ -214,10 +223,15 @@ header {
             img {
               width: 250px;
               height: 400px;
-              display: block;
+              
+          }
+
+          .center{
+            display: block;
               margin-left: auto;
               margin-right: auto;
               width: 50%;
+              margin-bottom: 80px;
           }
           .item2 {
             grid-area: item2;
@@ -273,4 +287,3 @@ header {
               margin: 1in;
           }
           }
-
