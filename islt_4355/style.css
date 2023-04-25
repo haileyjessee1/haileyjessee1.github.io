@@ -178,7 +178,7 @@ header {
       }
       .item3 {
          grid-area: item3;
-         
+         width: 800px;
          padding: 40px;
           }
       .item4 {
